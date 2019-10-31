@@ -1,0 +1,24 @@
+- Ngrok kurulumu -
+
+mkdir /usr/share/ngrok
+mv ngrok /usr/share/ngrok
+ln -s /usr/share/ngrok/ngrok /usr/bin/ngrok
+service apache2 start
+
+- Java Versiyon Kontrol ve Kaldırma - 
+
+java --version ( java versiyonunu öğren ) 
+
+apt-get remove openjdk-version-jdk ( versiyon kısmına sürümünü yaz ) 
+
+apt-get remove openjdk-version* ( versiyon kısmına sürümünü yaz )
+
+apt-get autoremove
+
+- Openjdk8 ve Apktool Yükleme İşlemi -
+
+apt-get install openjdk-8-jdk
+
+apt-get install openjdk-8*
+
+apt-get install apktool
